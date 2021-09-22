@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -14,6 +15,7 @@
 
   <body>
     <header class="header">
+      <div class="container menu">
       <a href="./index.html" class="logo link"
         ><span class="logo-web">Web</span>Studio</a
       >
@@ -30,7 +32,7 @@
           </li>
         </ul>
       </nav>
-      <ul class="header-list list">
+      <ul class="header-list list mail">
         <li class="header-item-left item">
           <a href="mailto:info@devstudio.com" class="header-link link tel"
             >info@devstudio.com</a
@@ -42,15 +44,17 @@
           >
         </li>
       </ul>
+      </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="hero section">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="button hero-button">
           Заказать услугу
         </button>
       </section>
-      <section class="solution">
+      <section class="solution section">
+        <div class="container">
         <h2 class="solution-heading heading">Решения</h2>
         <ul class="solution-list list">
           <li class="solution-item item">
@@ -74,7 +78,7 @@
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="solution-item item">
             <h3 class="solution-title title">Современные технологии</h3>
             <p class="solution-text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -82,8 +86,10 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
-      <section class="wwd">
+      <section class="wwd section">
+        <div class="container">
         <h2 class="wwd-heading heading">Чем мы занимаемся</h2>
         <ul class="wwd-list list">
           <li class="wwd-item item">
@@ -96,34 +102,38 @@
             <img src="./images/box3.jpg" width="370" alt="планшет" />
           </li>
         </ul>
+        </div>
       </section>
-      <section class="team">
+      <section class="team section">
+        <div class="container">
         <h2 class="team-heading heading">Наша команда</h2>
         <ul class="team-list list">
           <li class="team-item item">
             <img src="./images/igord.jpg" width="270" alt="Игорь Демьяненко" />
-            <p class="solution-name">Игорь Демьяненко</p>
-            <p class="solution-text">Product Designer</p>
+            <p class="team-name">Игорь Демьяненко</p>
+            <p class="team-text">Product Designer</p>
           </li>
           <li class="team-item item">
             <img src="./images/olgar.jpg" width="270" alt="Ольга Репина" />
-            <p class="solution-name">Ольга Репина</p>
-            <p class="solution-text">Frontend Developer</p>
+            <p class="team-name">Ольга Репина</p>
+            <p class="team-text">Frontend Developer</p>
           </li>
           <li class="team-item item">
             <img src="./images/kolyat.jpg" width="270" alt="Николай Тарасов" />
-            <p class="solution-name">Николай Тарасов</p>
-            <p class="solution-text">Marketing</p>
+            <p class="team-name">Николай Тарасов</p>
+            <p class="team-text">Marketing</p>
           </li>
           <li class="team-item item">
             <img src="./images/mixae.jpg" width="270" alt="Михаил Ермаков" />
-            <p class="solution-name">Михаил Ермаков</p>
-            <p class="solution-text">UI Designer</p>
+            <p class="team-name">Михаил Ермаков</p>
+            <p class="team-text">UI Designer</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="logo flog link"
         ><span class="logo-web">Web</span>Studio</a
       >
@@ -139,11 +149,12 @@
           >
         </li>
         <li class="footer-item">
-          <a href="tel:0961111111" class="footer-address-tel link">
+          <a href="tel:0961111111" class="footer-address-tel link telephone">
             096 111 11 11</a
           >
         </li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>
