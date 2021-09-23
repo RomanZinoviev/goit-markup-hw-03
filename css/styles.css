@@ -225,9 +225,7 @@ body {
   margin-right: 50px;
 }
 
-.header-item-left:not(:last-child) {
-  margin-right: 50px;
-}
+
 
 .mail {
   margin-left: auto;
@@ -257,7 +255,7 @@ body {
   background: #2196f3;
   color: var(--secondary-text-color);
   margin: 0 auto;
-  margin-bottom: 200px;
+  padding-bottom: 200px;
 }
 
 /* ------------SOLUTION------------- */
