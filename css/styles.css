@@ -225,8 +225,9 @@ body {
   margin-right: 50px;
 }
 
-
-
+.tel {
+  margin-left: 50px;
+}
 .mail {
   margin-left: auto;
 }
@@ -234,6 +235,8 @@ body {
 /* ------------HERO------------- */
 .hero {
   background: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -244,9 +247,9 @@ body {
   text-transform: uppercase;
   color: var(--secondary-text-color);
   max-width: 696px;
+  letter-spacing: 0.06em;
 
   margin: 0 auto;
-  padding-top: 200px;
   margin-bottom: 30px;
 }
 
@@ -255,12 +258,15 @@ body {
   background: #2196f3;
   color: var(--secondary-text-color);
   margin: 0 auto;
-  padding-bottom: 200px;
 }
 
 /* ------------SOLUTION------------- */
 .solution {
   padding-bottom: 48px;
+}
+
+.solution-title {
+  margin-bottom: 10px;
 }
 
 .solution-text {
@@ -302,9 +308,13 @@ body {
 /* -------------TEAM------------ */
 
 .team-heading {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
+.team-item-bottom {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 .team {
   background: #f5f4fa;
 }
@@ -317,7 +327,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
 
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -325,8 +334,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-
-  margin-bottom: 30px;
 }
 
 .team-list {
@@ -344,13 +351,14 @@ body {
 /* -----------FOOTER------------- */
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .flog {
   color: #ffffff;
 
   display: inline-block;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-address {
@@ -366,10 +374,6 @@ body {
   color: rgba(255, 255, 255, 0.6);
   display: inline-block;
   margin-bottom: 9px;
-}
-
-.telephone {
-  margin-bottom: 60px;
 }
 
 /* ------------PORTFOLIO---------- */
@@ -417,6 +421,8 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .sites-title {
@@ -426,10 +432,5 @@ body {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 
-  margin-top: 20px;
   margin-bottom: 4px;
-}
-
-.sites-text {
-  margin-bottom: 20px;
 }
